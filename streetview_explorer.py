@@ -7,7 +7,8 @@ import requests
 import pdb
 
 # GCP key
-key = "AIzaSyBMvJJ-rezXdRPiiOdvp79G1sBCvMJPpw0"
+keyfile = open("key.txt", "r")
+key = keyfile.readline()
 
 # == Metadata =======================================================
 
